@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Syntax Highlighter Example</title>
+</head>
+<body>
+        <link type="text/css" rel="Stylesheet" href="http://alexgorbatchev.com/pub/sh/current/styles/shThemeRDark.css" />
+        <link href='http://alexgorbatchev.com/pub/sh/current/styles/shCore.css' rel='stylesheet' type='text/css' />
+        <script src='http://alexgorbatchev.com/pub/sh/current/scripts/shCore.js' type='text/javascript'></script>
+        <script src='http://alexgorbatchev.com/pub/sh/current/scripts/shBrushCSharp.js' type='text/javascript'></script>
+        <script src='http://alexgorbatchev.com/pub/sh/current/scripts/shBrushCss.js' type='text/javascript'></script>
+        <script src='http://alexgorbatchev.com/pub/sh/current/scripts/shBrushJScript.js' type='text/javascript'></script>
+        <script src='http://alexgorbatchev.com/pub/sh/current/scripts/shBrushSql.js' type='text/javascript'></script>
+        <script src='http://alexgorbatchev.com/pub/sh/current/scripts/shBrushXml.js' type='text/javascript'></script>
+        <script language='javascript'>
+            SyntaxHighlighter.config.bloggerMode = true;
+            SyntaxHighlighter.config.clipboardSwf = 'http://alexgorbatchev.com/pub/sh/current/scripts/clipboard.swf';
+            SyntaxHighlighter.all();
+        </script>
+		<div> This is a simple example of Syntax Highlighter<div>
+        <div>
+            <script type="syntaxhighlighter" class="brush: html">
+                <![CDATA[
+                    <div>This is some text </div>
+                    <div>This is more some text </div>
+                ]]>
+            </script>
+            <pre class="brush: html">
+                &ltp&gt Some sample text with Pre &lt/p&gt 
+                &ltp&gt Some sample more text with Pre  &lt/p&gt 
+                &ltp&gt Some sample even more text with Pre BIG Shout to Alex Gorbatchev! &lt/p&gt 
+            </pre>
+        </div>
+</body>
+</html>
